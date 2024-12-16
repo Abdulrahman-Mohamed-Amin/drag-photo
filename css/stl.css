@@ -1,0 +1,32 @@
+.drag{
+  background: steelblue;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.empty{
+  width: 200px;
+  height: 200px;
+  background: #fff;
+  border: 3px solid #000;
+
+}
+.drag .fill{
+  background: url(../images/pexels-bylukemiller-13513997.jpg);
+  width: 195px;
+  height: 195px;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+.hold {
+  border: 5px solid #ccc;
+}
+.hoverd {
+  background: #333;
+  border-color: #fff;
+  border-style: dashed;
+}
